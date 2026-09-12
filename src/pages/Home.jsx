@@ -14,7 +14,7 @@ export default function Home() {
           fontWeight: 300,
           marginBottom: '1rem' 
         }}>
-          ServiceNow Consulting, Cloud & DevOps Services
+          ServiceNow CMDB, ITAM & Cloud Consulting
         </h1>
         <p style={{ color: '#64748b', fontSize: '1.125rem', marginBottom: '2rem' }}>
           Expert IT solutions for enterprises in the USA, Canada, and Germany
@@ -44,20 +44,33 @@ export default function Home() {
             gap: '2rem'
           }}>
             <ServiceCard 
+              title="ServiceNow CMDB & ITAM"
+              description="CMDB, ITAM, and SAM consulting with data quality and asset lifecycle control"
+              link="/services/servicenow-cmdb-itam-consulting"
+            />
+            <ServiceCard 
               title="ServiceNow Consulting"
-              description="CMDB, ITAM, and SAM implementation and optimization"
-              link="/services/servicenow"
+              description="Platform consulting for ITSM, workflows, and governed delivery"
+              link="/services/servicenow-consulting"
             />
             <ServiceCard 
               title="Cloud Services"
               description="Cloud migration and modernization for AWS, Azure, GCP"
               link="/services/cloud"
             />
-            <ServiceCard 
-              title="DevOps Automation"
-              description="CI/CD, infrastructure as code, and automation"
-              link="/services/devops"
-            />
+          </div>
+          <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+            <Link 
+              to="/contact" 
+              style={{
+                color: '#0066cc',
+                textDecoration: 'none',
+                fontWeight: 600,
+                fontSize: '1.125rem'
+              }}
+            >
+              Contact us to discuss your needs →
+            </Link>
           </div>
         </div>
       </section>

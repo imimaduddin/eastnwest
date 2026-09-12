@@ -1,11 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Contact() {
   return (
     <div style={{ padding: '4rem 2rem', maxWidth: '800px', margin: '0 auto' }}>
-      <h1 style={{ marginBottom: '2rem' }}>Contact Us</h1>
+      <h1 style={{ marginBottom: '2rem' }}>Contact EastNWest IT Solution</h1>
       <p style={{ marginBottom: '2rem', color: '#64748b', lineHeight: 1.7 }}>
-        Get in touch with our team to discuss how we can help transform your IT operations.
+        Contact EastNWest for ServiceNow CMDB, ITAM, SAM, cloud, or DevOps consulting. 
+        Discuss USA, Canada, or Germany delivery with our team today.
       </p>
       
       <div style={{ 
@@ -51,6 +53,27 @@ export default function Contact() {
         >
           info@eastnwestitsolution.com
         </a>
+      </div>
+      
+      <div style={{ marginTop: '3rem' }}>
+        <h2 style={{ fontSize: '1.25rem', marginBottom: '1rem' }}>Our Services</h2>
+        <ul style={{ listStyle: 'none', padding: 0 }}>
+          <li style={{ marginBottom: '0.75rem' }}>
+            <Link to="/services/servicenow-cmdb-itam-consulting" style={{ color: '#0066cc', textDecoration: 'none', fontWeight: 600 }}>
+              ServiceNow CMDB & ITAM Consulting →
+            </Link>
+          </li>
+          <li style={{ marginBottom: '0.75rem' }}>
+            <Link to="/services/cloud-consulting" style={{ color: '#0066cc', textDecoration: 'none', fontWeight: 600 }}>
+              Cloud Consulting →
+            </Link>
+          </li>
+          <li style={{ marginBottom: '0.75rem' }}>
+            <Link to="/about" style={{ color: '#0066cc', textDecoration: 'none', fontWeight: 600 }}>
+              About Us →
+            </Link>
+          </li>
+        </ul>
       </div>
     </div>
   );

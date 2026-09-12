@@ -4,13 +4,13 @@
  */
 export const routeMetadata = {
   '/': {
-    title: 'EastNWest IT Solution | ServiceNow Consulting, Cloud & DevOps Services',
-    description: 'ServiceNow CMDB, ITAM, and SAM consulting plus cloud, DevOps, and software delivery for enterprises in the USA, Canada, and Germany.',
+    title: 'ServiceNow CMDB, ITAM & Cloud Consulting | EastNWest',
+    description: 'EastNWest delivers ServiceNow CMDB, ITAM, and SAM consulting with cloud and DevOps delivery for enterprises in the USA, Canada, and Germany.',
     robots: 'index,follow'
   },
   '/about': {
-    title: 'About Us | EastNWest IT Solution',
-    description: 'Learn about EastNWest IT Solution\'s expertise in ServiceNow consulting, cloud modernization, and enterprise automation services.',
+    title: 'About EastNWest IT Solution | ServiceNow Experts',
+    description: 'Learn about EastNWest IT Solution—ServiceNow CMDB, ITAM, SAM, cloud, and DevOps consulting for enterprises in the USA, Canada, and Germany.',
     robots: 'index,follow'
   },
   '/services': {
@@ -21,6 +21,36 @@ export const routeMetadata = {
   '/services/servicenow': {
     title: 'ServiceNow Consulting Services | CMDB, ITAM, SAM | EastNWest',
     description: 'Expert ServiceNow consulting for CMDB, IT Asset Management (ITAM), Software Asset Management (SAM), and enterprise service management.',
+    robots: 'index,follow'
+  },
+  '/services/servicenow-cmdb-itam-consulting': {
+    title: 'ServiceNow CMDB, ITAM & SAM Consulting | EastNWest',
+    description: 'CMDB, ITAM, and SAM consulting on ServiceNow. EastNWest builds data quality, asset lifecycle, and license control for USA, Canada, and Germany clients.',
+    robots: 'index,follow'
+  },
+  '/services/servicenow-consulting': {
+    title: 'ServiceNow Consulting & Workflow Automation | EastNWest',
+    description: 'ServiceNow consulting for ITSM, workflows, and platform delivery. EastNWest helps USA, Canada, and Germany teams ship governed ServiceNow outcomes.',
+    robots: 'index,follow'
+  },
+  '/services/itsm-itam': {
+    title: 'ITSM & ITAM Consulting on ServiceNow | EastNWest',
+    description: 'ITSM and ITAM consulting that aligns ServiceNow processes, CMDB accuracy, and asset workflows for enterprises across the USA, Canada, and Germany.',
+    robots: 'index,follow'
+  },
+  '/services/servicenow-delivery': {
+    title: 'ServiceNow Delivery & Implementation | EastNWest',
+    description: 'ServiceNow delivery pods for implementation, UAT, and enhancements. EastNWest supports governed releases for USA, Canada, and Germany programs.',
+    robots: 'index,follow'
+  },
+  '/services/cloud-consulting': {
+    title: 'Cloud Consulting Services | EastNWest IT Solution',
+    description: 'Cloud consulting for modernization, governance, and operations. EastNWest partners with USA, Canada, and Germany teams on secure, scalable estates.',
+    robots: 'index,follow'
+  },
+  '/services/devops-services': {
+    title: 'DevOps Consulting & Engineering Services | EastNWest',
+    description: 'DevOps services for CI/CD, platform engineering, and release discipline. EastNWest helps USA, Canada, and Germany teams ship with guardrails.',
     robots: 'index,follow'
   },
   '/services/cloud': {
@@ -39,23 +69,23 @@ export const routeMetadata = {
     robots: 'index,follow'
   },
   '/contact': {
-    title: 'Contact Us | EastNWest IT Solution',
-    description: 'Get in touch with EastNWest IT Solution for ServiceNow consulting, cloud services, and enterprise IT solutions.',
+    title: 'Contact EastNWest | ServiceNow & Cloud Consulting',
+    description: 'Contact EastNWest for ServiceNow CMDB, ITAM, SAM, cloud, or DevOps consulting. Discuss USA, Canada, or Germany delivery with our team today.',
     robots: 'index,follow'
   },
   '/locations/usa': {
-    title: 'USA Office | EastNWest IT Solution',
-    description: 'ServiceNow and cloud consulting services for enterprises in the United States. Expert IT solutions and digital transformation.',
+    title: 'USA ServiceNow CMDB & ITAM Consulting | EastNWest',
+    description: 'USA-focused ServiceNow, CMDB, ITAM, and cloud consulting from EastNWest. Delivery support for enterprise ITSM and asset programs nationwide.',
     robots: 'index,follow'
   },
   '/locations/canada': {
-    title: 'Canada Office | EastNWest IT Solution',
-    description: 'ServiceNow and cloud consulting services for Canadian enterprises. IT consulting and automation solutions.',
+    title: 'Canada ServiceNow CMDB & ITAM Consulting | EastNWest',
+    description: 'Canada-focused ServiceNow consulting for CMDB, ITAM, ITSM, and cloud delivery. EastNWest supports enterprise programs with governed implementation.',
     robots: 'index,follow'
   },
   '/locations/germany': {
-    title: 'Germany Office | EastNWest IT Solution',
-    description: 'ServiceNow and cloud consulting services for German enterprises. Expert IT solutions and enterprise automation.',
+    title: 'Germany ServiceNow CMDB & ITAM Consulting | EastNWest',
+    description: 'Germany-focused ServiceNow consulting for CMDB, ITAM, ITSM, and cloud programs. EastNWest delivers governed implementation and enhancement support.',
     robots: 'index,follow'
   },
   '/locations/ksa': {
@@ -74,8 +104,18 @@ export const routeMetadata = {
     robots: 'index,follow'
   },
   '/blog': {
-    title: 'Blog | IT Insights & Best Practices | EastNWest IT Solution',
-    description: 'Expert insights on ServiceNow, cloud computing, DevOps, and enterprise IT best practices.',
+    title: 'ServiceNow CMDB, ITSM & DevOps Insights | EastNWest',
+    description: 'Read EastNWest guides on ServiceNow CMDB, ITSM, ITAM, cloud, and DevOps. Practical delivery insights for teams in the USA, Canada, and Germany.',
+    robots: 'index,follow'
+  },
+  '/blog/servicenow-cmdb-governance-that-sticks': {
+    title: 'ServiceNow CMDB Governance That Sticks | EastNWest',
+    description: 'Learn ServiceNow CMDB governance that sticks: clear ownership, data quality rules, and operating rhythm so CI data stays trusted after go-live.',
+    robots: 'index,follow'
+  },
+  '/blog/servicenow-itsm-implementation-best-practices': {
+    title: 'ServiceNow ITSM Best Practices | EastNWest Blog',
+    description: 'ServiceNow ITSM implementation best practices covering process design, CMDB readiness, UAT, and adoption that survives audits and upgrades.',
     robots: 'index,follow'
   }
 };
